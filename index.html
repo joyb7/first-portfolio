@@ -3,27 +3,61 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web Developer Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="icon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style/portfolio.css">
 </head>
-<body>
-    <header>
-        <h1>Welcome to My Portfolio</h1>
+<body class=".open-sans-normal">
+    <header class="header secondary-bg">
+       <nav>
+            <h3 class="nav-titel">J<span class="text-primary">o</span>y</h3>
+            <ul>
+                <li><a class="dark-2" href="#">Portfolio</a></li>
+                <li><a class="dark-2" href="#">Blog</a></li>
+                <li><a href=""><button class="btn-primary">Hire Me</button></a></li>
+            </ul>
+        </nav>
+        <div class="banner">
+            <div class="banner-content">
+                <h4 class="banner-greetings dark-2">Hi, I am</h4>
+                <h1 class="banner-title">Joy Barua</h1>
+                <p class="banner-text">Welcome to my portfolio! Here you can find my latest projects and blog posts.<br>
+                I am a web developer with a passion for creating beautiful and functional websites. Feel free to explore my work and get in touch if you have any questions or would like to collaborate.
+                </p>
+                <button class="btn-primary">Download CV</button>
+                <button class="btn-primary">Contact</button>
+                
+            </div>
+            <img class="banner-profile-pic" src="images/hardy.png" alt="">
+        </div>
     </header>
     <main>
-        <section>
-            <h2>About Me</h2>
-            <p>Hi, I'm a web developer with a passion for creating beautiful and functional websites.</p>
+        <section class="about secondary-bg">
+            <h3 class="section-title">About Me</h3>
+            <p class="section-description">I am a passionate web developer with experience in creating dynamic and responsive websites. My skills include HTML, CSS, JavaScript, and various frameworks. I love turning ideas into reality and continuously learning new technologies to improve my craft.</p>
+
+        <div class="about-items">
+            <div class="about-item">
+                <p class="item-title">Name</p>
+                <p class="item-description">Joy Barua</p>
+            </div>
+            <div class="about-item">
+                <p class="item-title">Email</p>
+                <p class="item-description">joybarua1252002@gmail.com</p>
+            </div>
+            <div class="about-item">
+                <p class="item-title">Date Of Birth</p>
+                <p class="item-description">May 12, 2002</p>
+            </div>
+            <div class="about-item">
+                <p class="item-title">From</p>
+                <p class="item-description">Chattogram, Bangladesh</p>
+            </div>
         </section>
-        <section>
-            <h2>My Work</h2>
-            <ul>
-                <li>Project 1</li>
-                <li>Project 2</li>
-                <li>Project 3</li>
-            </ul>
-        </section>
+        </div>
     </main>
-    <footer>
-        <p>Contact me at: <a href="mailto:yourname@example.com">yourname@example.com</a></p>
-    </footer>
+
 </body>
 </html>
